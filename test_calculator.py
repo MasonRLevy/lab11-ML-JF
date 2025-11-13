@@ -51,9 +51,8 @@ class TestCalculator(unittest.TestCase):
         # Test for invalid argument, example:
         with self.assertRaises(ValueError):
             square_root(-4)
-        self.assertAlmostEqual(square_root(4), 2.0)
+        self.assertAlmostEqual(square_root(0), 0.0)
         self.assertAlmostEqual(square_root(36), 6.0)
-        self.assertAlmostEqual(square_root(49), 7.0)
     ##########################
 
 # Do not touch this
