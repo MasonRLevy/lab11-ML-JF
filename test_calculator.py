@@ -1,3 +1,7 @@
+# https://github.com/MasonRLevy/lab11-ML-JF
+# Partner 1: Mason Levy
+# Partner 2: Jaiden Fauble
+
 import unittest
 from calculator import *
 
