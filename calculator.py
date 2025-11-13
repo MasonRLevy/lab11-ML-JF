@@ -1,7 +1,5 @@
 import math
 
-def add(a, b): return a + b
-
 def square_root(a):
     if a < 0:
         raise ValueError
