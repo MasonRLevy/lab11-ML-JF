@@ -38,7 +38,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(log(10, 100), 2)
         self.assertEqual(log(7, 7), 1)
     ######## Partner 1
-    def test_log_invalid_argument(self): # 1 assertion
+    def test_log_invalid_base(self): # 1 assertion
         # call log function inside, example:
         with self.assertRaises(ValueError):
              log(0, 5)
